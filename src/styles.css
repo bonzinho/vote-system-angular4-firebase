@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~materialize-css/dist/css/materialize.min.css";
+@import "~material-icons/css/material-icons.min.css";
+
+{
+    box-sizing: border-box;
+}
+
+#header .title, #header .subtitle {
+    margin: 0;
+}
+
+#header .title {
+    padding: 40px 20px;
+}
+
+#header .subtitle, #content {
+    padding: 20px;
+}
+
+.user-box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.circle-icon {
+    background: #c1c1c1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.padding-5{
+   padding:5px;
+}
